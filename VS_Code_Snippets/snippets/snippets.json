@@ -103,5 +103,31 @@
             "}"
         ],
         "description": "Will generate a basic working segment tree code for building, updating and querying the maximum in Range Maximum Query in Lazy Propogation"
+    },
+    "Disjoint Set Unions":{
+        "prefix": "!!dsu",
+        "body":[
+            "vector<int> Rank;",
+            "vector<int> parent;",
+            "int findParent(int x){",
+            "    while(x != parent[x]){",
+            "        parent[x] = parent[parent[x]];",
+            "        x = parent[x];",
+            "    }",
+            "}",
+            "void UNION(int a, int b){",
+            "    a = findParent(a);",
+            "    b = findParent(b);",
+            "    if(Rank[a] < Rank[b]){",
+            "        parent[a]=b;",
+            "    }else if(Rank[a] > Rank[b]){",
+            "        parent[b] = a;",
+            "    }else{",
+            "        parent[a] = b;",
+            "        Rank[b]++;",
+            "    }",
+            "}"
+        ],
+        "description": "Disjoint Set Union Code to Import basic Disjoint set Snippet"
     }
 }
