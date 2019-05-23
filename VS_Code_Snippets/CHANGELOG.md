@@ -6,3 +6,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.0]
 - Initial release of code snippets for competitive coding
+## [1.0.1]
+- Added Disjoint Set Unions in the snippets

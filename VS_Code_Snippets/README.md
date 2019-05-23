@@ -1,21 +1,23 @@
 # competitive-snippets README
 
-This is the README for your extension "competitive-snippets". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+**Basic Template:**
+> **Command:** ```!!basics```
+> This command will copy the basic template with headers and macros famously used in competitive programming. Sections may be added/removed in the future on the basis of use in competitive programming.
 
-For example if there is an image subfolder under your extension project workspace:
+**Segment Trees:**
+> **Command:** ```!!max_seg_tree```
+> Currently only one snippet available for segment tree which provide snippet for building, updating and querying segment tree with lazy propogation.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+**Disjoint Set Unions:**
+> **Command:** ```!!dsu```
+> This command will import code for basic disjoint set unions (also known as union-finds) with rank and parent vectors included.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
+This is solo project and now requirements are there so far.
 ## Extension Settings
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
