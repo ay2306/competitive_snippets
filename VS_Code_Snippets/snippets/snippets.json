@@ -129,5 +129,58 @@
             "}"
         ],
         "description": "Disjoint Set Union Code to Import basic Disjoint set Snippet"
+    },
+    "Depth First Search":{
+        "prefix": "!!dfs-basic",
+        "body":[
+            "vector<vector<int>> adj;",
+            "vector<bool> visited;",
+            "void dfs(int s = 0){",
+            "    visited[s] = true;",
+            "    for(auto &i: adj[s])dfs(i);",
+            "}"
+        ],
+        "description": "Basic Depth First Search Code for Competitive Programming"
+    },
+    "Breadth First Search":{
+        "pref": "!!bfs-basic",
+        "body":[
+            "vector<vector<int>> adj;",
+            "void bfs(int s = 0){",
+            "    vector<bool> visited (adj.size(),false);",
+            "    queue<int> q;",
+            "    q.push(s);",
+            "    visited[s] = true;",
+            "    while(q.size()){",
+            "        int u = q.front();",
+            "        q.pop();",
+            "        for(auto &i: adj[u]){",
+            "            if(!visited[i]){",
+            "                visited[i] = true;",
+            "                q.push(i);",
+            "            }",
+            "        }",
+            "    }",
+            "}"
+        ],
+        "description": "Basic Breadth First Search Code for Competitive Programming"
+    },
+    "Krushkal":{
+        "prefix": "!!krushkal",
+        "body":[
+            "vector<pair<int,pair<int,int>>> edges;",
+            "int krushkal(){",
+            "    sort(edges.begin(),edges.end());",
+            "    int ans = 0;",
+            "    for(auto &i: edges){",
+            "        if(findParent(i.second.first) != findParent(i.second.second)){",
+            "            UNION(i.second.first,i.second.second);",
+            "            ans+=i.first;",
+            "        }",
+            "    }",
+            "    return ans;",
+            "}"
+        ],
+        "description": "Code Snippet for Krushkal Algorithm to find Minimum Cost of Spanning Tree"
     }
 }
