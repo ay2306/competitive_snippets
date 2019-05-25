@@ -9,6 +9,7 @@
             "        parent[x] = parent[parent[x]];",
             "        x = parent[x];",
             "    }",
+            "return x",
             "}",
             "void UNION(int a, int b){",
             "    a = findParent(a);",
