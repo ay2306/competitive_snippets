@@ -8,3 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release of code snippets for competitive coding
 ## [1.0.1]
 - Added Disjoint Set Unions in the snippets
+## [1.0.2]
+- Added Basic Graph DFS and BFS Snippets along with krushkal algorithm
+## [1.0.3]
+- Fixed Problem with Disjoint Set Union snippet

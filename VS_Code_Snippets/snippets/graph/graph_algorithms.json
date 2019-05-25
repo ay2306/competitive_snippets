@@ -1,0 +1,20 @@
+{
+    "Krushkal":{
+        "prefix": "!!krushkal",
+        "body":[
+            "vector<pair<int,pair<int,int>>> edges;",
+            "int krushkal(){",
+            "    sort(edges.begin(),edges.end());",
+            "    int ans = 0;",
+            "    for(auto &i: edges){",
+            "        if(findParent(i.second.first) != findParent(i.second.second)){",
+            "            UNION(i.second.first,i.second.second);",
+            "            ans+=i.first;",
+            "        }",
+            "    }",
+            "    return ans;",
+            "}"
+        ],
+        "description": "Code Snippet for Krushkal Algorithm to find Minimum Cost of Spanning Tree"
+    }
+}

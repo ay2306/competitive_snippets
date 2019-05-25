@@ -62,3 +62,6 @@ Added snippet of Disjoint Set Union
 ### 1.0.2
 
 Added snippet of Basic Breadth First Search, Depth First Search and Krushkal Algorithm
+
+### 1.0.3
+Fixed Problem with Disjoint Set Union snippet

@@ -2,7 +2,7 @@
     "name": "competitive-snippets",
     "displayName": "competitive_snippets",
     "description": "Snippets to simply call during a contest for competitive contest and other codes which might be helpful",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/ay2306/competitive_snippets/"
@@ -18,7 +18,15 @@
         "snippets": [
             {
                 "language": "cpp",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/basics/basics.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/graph/graph_basic.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/graph/graph_algorithms.json"
             }
         ]
     }
