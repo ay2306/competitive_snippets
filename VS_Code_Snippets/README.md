@@ -64,4 +64,7 @@ Added snippet of Disjoint Set Union
 Added snippet of Basic Breadth First Search, Depth First Search and Krushkal Algorithm
 
 ### 1.0.3
+Indentation Changes
+
+### 1.0.4
 Fixed Problem with Disjoint Set Union snippet

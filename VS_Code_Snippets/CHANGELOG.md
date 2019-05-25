@@ -11,4 +11,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.2]
 - Added Basic Graph DFS and BFS Snippets along with krushkal algorithm
 ## [1.0.3]
+- Normal indentation changes
+## [1.0.4]
 - Fixed Problem with Disjoint Set Union snippet
