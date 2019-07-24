@@ -33,9 +33,14 @@
 
 > This command will import code for basic code for Krushkal Algorithm which calculates minimum cost spanning tree for a graph in $O(Elog(E))$.
 
+**Convex Hull**
+> **Command:** ```!!convexHull```
+
+> This command will import code along with required functions for Graham Scan Algorithm which calculates Convex Hull for a set of points in $O(Nlog(N))$.
+
 ## Requirements
 
-This is solo project and no requirements are there so far.
+This is Duo project and no requirements are there so far.
 <!-- ## Extension Settings
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.

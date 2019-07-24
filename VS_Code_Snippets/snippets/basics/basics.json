@@ -48,5 +48,32 @@
             "const double pi = acos(-1);"
         ],
         "description":"Generates all the major macros used in competitive programming and new useful macros will be added with time"
-    }
+    },
+	"Prime_seive" : {
+		"prefix": "prime_seive",
+		"body": [
+			"//eratosthenes seive to find prime numbers",
+			"void seive(int n){",
+			"\tbool prime[n+1];",
+			"\t//this is a function to put same value in splice of an array",
+			"\tmemset(prime,true,sizeof(prime));",
+			"\tfor (int i=2;i*i <= n;++i){",
+			"\t\tif (prime[i] == true){",
+			"\t\tfor (int j=i*2;j<=n;j += i){",
+			"\t\t\tprime[j] = false;",
+			"\t\t}",
+			"\t}",
+			"\t}",
+			"\tint count = 0;",
+			"\tfor (int p=2; p<=n; p++) {",
+			"",
+			"\t\tif (prime[p]) {",
+			"\t\t\t//cout << p << ",";",
+			"\t\t\tcount ++;",
+			"\t\t}",
+			"\t}",
+			"\tcout << count ;",
+			"}",
+		]
+	}
 }
