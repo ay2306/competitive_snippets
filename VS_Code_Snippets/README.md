@@ -33,8 +33,8 @@
 
 > This command will import code for basic code for Krushkal Algorithm which calculates minimum cost spanning tree for a graph in $O(Elog(E))$.
 
-**Convex Hull**
-> **Command:** ```!!convexHull```
+**Graham Scan**
+> **Command:** ```!!grahamScan```
 
 > This command will import code along with required functions for Graham Scan Algorithm which calculates Convex Hull for a set of points in $O(Nlog(N))$.
 
