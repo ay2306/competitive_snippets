@@ -14,3 +14,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Normal indentation changes
 ## [1.0.4]
 - Fixed Problem with Disjoint Set Union snippet
+## [1.0.5]
+- Fixed More Problem with Disjoint Set Union snippet
+- Added Test Cases involved Basic Template
+## [1.0.6]
+- Fixed Syntax Bugs of previously added snippets
+- Added Convex Hull Trick for DP Optimization snippet

@@ -2,7 +2,7 @@
     "name": "competitive-snippets",
     "displayName": "competitive_snippets",
     "description": "Snippets to simply call during a contest for competitive contest and other codes which might be helpful",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "repository": {
         "type": "git",
         "url": "https://github.com/ay2306/competitive_snippets/"
@@ -27,6 +27,10 @@
             {
                 "language": "cpp",
                 "path": "./snippets/graph/graph_algorithms.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/dp/optimization.json"
             }
         ]
     }
