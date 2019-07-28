@@ -8,6 +8,10 @@
 
 > This command will copy the basic template with headers and macros famously used in competitive programming. Sections may be added/removed in the future on the basis of use in competitive programming.
 
+> **Command:** ```!!basics-test```
+
+> Same as basic but with test cases
+
 **Segment Trees:**
 > **Command:** ```!!max_seg_tree```
 
@@ -32,6 +36,11 @@
 > **Command:** ```!!krushkal```
 
 > This command will import code for basic code for Krushkal Algorithm which calculates minimum cost spanning tree for a graph in $O(Elog(E))$.
+
+**Convex Hull Trick (Dynamic Programming)**
+> **Command:** ```!!chtDynamic```
+
+> This command will import code class for chtDynamic algorithm.
 
 ## Requirements
 
@@ -68,3 +77,11 @@ Indentation Changes
 
 ### 1.0.4
 Fixed Problem with Disjoint Set Union snippet
+
+## [1.0.5]
+- Fixed More Problem with Disjoint Set Union snippet
+- Added Test Cases involved Basic Template
+
+## [1.0.6]
+- Fixed Syntax Bugs of previously added snippets
+- Added Convex Hull Trick for DP Optimization snippet
