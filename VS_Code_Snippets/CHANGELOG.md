@@ -21,6 +21,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Fixed Syntax Bugs of previously added snippets
 - Added Convex Hull Trick for DP Optimization snippet
 ## [1.0.7]
-- Fixed Really Stupid Bug\
+- Fixed Really Stupid Bug
 ## [1.1.0]
 - Fixed Silly Bug, from now on Version as whole_version. added_feature . patches
+## [1.2.0]
+- Added Trie Data Structure for strings
+- Added Matrix Library with multiplication and power code

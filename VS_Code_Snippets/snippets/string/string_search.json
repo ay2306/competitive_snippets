@@ -1,0 +1,48 @@
+{
+    "KMP":{
+        "prefix": "!!kmp",
+        "body":[
+                "Under Development"
+        ],
+        "description": "Right now I don't remember why is it used."
+    },
+    "String Trie":
+    {
+        "prefix": "!!trie_string",
+        "body":[
+            "struct node{",
+                "    unordered_map<char,pair<node*,int>> children;",
+                "};",
+                "",
+                "class trie{",
+                "    node *parent;",
+                "public:",
+                "    trie(){",
+                "        parent = new node();",
+                "    }",
+                "    void add(string &a){",
+                "        node *current = parent;",
+                "        for(auto &i: a){",
+                "            if(current->children.find(i) == current->children.end()){",
+                "                current->children[i].first = new node();",
+                "                current->children[i].second = 0;",
+                "            }",
+                "            current = current->children[i].first;",
+                "            current->children[i].second++;",
+                "        }",
+                "    }",
+                "    bool exists(string &a)const{",
+                "        node *current = parent;",
+                "        for(auto &i: a){",
+                "            if(current->children.find(i) == current->children.end()){",
+                "                return false;",
+                "            }",
+                "            current = current->children[i].first;",
+                "        }",
+                "        return true;",
+                "    }",
+                "};"
+        ],
+        "description": "Tries are very useful data structures to implement prefix searches"
+    }
+}

@@ -2,7 +2,7 @@
     "name": "competitive-snippets",
     "displayName": "competitive_snippets",
     "description": "Snippets to simply call during a contest for competitive contest and other codes which might be helpful",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/ay2306/competitive_snippets/"
@@ -31,6 +31,18 @@
             {
                 "language": "cpp",
                 "path": "./snippets/dp/optimization.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/string/string_search.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/string/string_suffix_structures.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/array/multi_dimensional.json"
             }
         ]
     }
